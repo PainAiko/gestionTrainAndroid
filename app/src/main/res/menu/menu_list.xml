@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ShowIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_train"
+            android:id="@+id/nav_train"
+            android:title="@string/train"/>
+        <item
+            android:icon="@drawable/ic_voyageur"
+            android:id="@+id/nav_voyageur"
+            android:title="@string/voyageur"/>
+        <item
+            android:icon="@drawable/ic_reservation"
+            android:id="@+id/nav_reservation"
+            android:title="@string/reservation"/>
+        <item
+            android:icon="@drawable/ic_vusialisation"
+            android:id="@+id/nav_vusialiserVoyageurTrain"
+            android:title="@string/vusialisation"/>
+        <item
+            android:icon="@drawable/ic_recette_24"
+            android:id="@+id/nav_recette"
+            android:title="@string/recette"/>
+
+    </group>
+</menu>

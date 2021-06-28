@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    android:layout_height="120dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardviewTrain"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="411dp"
+            android:layout_height="111dp"
+            android:padding="15dp"
+            android:paddingLeft="14dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/numTrain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="numero train"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/design"
+                android:layout_below="@+id/numTrain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="design"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/itineraire"
+                android:layout_below="@+id/design"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="itineraire"
+                android:textSize="20dp" />
+            <TableRow
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/design">
+                <Button
+                    android:id="@+id/editBtnTrain"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/ic_edit"
+                />
+                <Button
+                    android:id="@+id/delBtnTrain"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@android:drawable/ic_delete"
+                    />
+            </TableRow>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

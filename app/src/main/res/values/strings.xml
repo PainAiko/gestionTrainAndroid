@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Reservation du train</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="train">Train</string>
+    <string name="voyageur">Voyageur</string>
+    <string name="reservation">Reservation</string>
+    <string name="vusialisation">Vusialisation</string>
+    <string name="reservation_de_place_en_train">Reservation de place en train</string>
+    <string name="recette">Recette</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="entrer">Ajout d\'un train</string>
+    <string name="hint_design">entrer la designation</string>
+    <string name="hint_itineraire">entrer l\'itineraire</string>
+    <string name="save_button">Effectuer</string>
+</resources>
